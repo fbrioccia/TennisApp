@@ -9,3 +9,8 @@ The logics of the game can be encoded in three functions:
   - **GameStatus: T -> String** (Returns the differents results score of the given tuple)
   - **NameScore: int -> String** (Return the differents results score of the given tuple)
   - **NextRound: T -> T** (Computes a new round of the match returning a new tuple updated accordingly)
+
+  ### Technical Details
+ - .Net Core 2.0.2 
+ - Visual Studio Code 1.18
+ - OmniSharp for Windows (.NET 4.6 / x64)

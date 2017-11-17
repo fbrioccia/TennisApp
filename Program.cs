@@ -2,12 +2,14 @@
 
 namespace Tennis
 {
-    class Program
+    public class Program
     {
         static (int A, int B, int? W) game = (0, 0, null);
         static string[] playersNames = { "Alice", "Bob" };
+
         static void Main(string[] args)
         {
+         
             Console.WriteLine("Start the game by pressing `Enter`");
             Console.ReadLine();
             do
