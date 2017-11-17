@@ -7,7 +7,7 @@ The game of tennis can be represented by a Tuple T(A,B,W) where:
 
 The logics of the game can be encoded in three functions:
   - **GameStatus: T -> String** (Returns the differents results score of the given tuple)
-  - **NameScore: int -> String** (Return the differents results score of the given tuple)
+  - **NameScore: int -> String** (Returns the score points using the tennis scoring system)
   - **NextRound: T -> T** (Computes a new round of the match returning a new tuple updated accordingly)
 
   ### Technical Details
